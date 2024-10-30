@@ -2,11 +2,12 @@ from flask import *
 import sqlite3, hashlib, os
 from werkzeug.utils import secure_filename
 import requests, sys
+""" export 
 
 FLASK_APP=main
 debug=open
 FLASK_ENV=development
-
+"""
 app = Flask(__name__)
 app.secret_key = 'random string'
 UPLOAD_FOLDER = 'static/uploads'
